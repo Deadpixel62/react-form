@@ -5,7 +5,7 @@ import Checkbox from "./checkbox";
 
 const Mybutton = styled.input`
   text-decoration: none;
-width: 15vw;
+  width: 15vw;
   padding: 12px;
   border: none;
   font-size: 14px;
@@ -18,6 +18,7 @@ width: 15vw;
   background-size: 300%;
   border-radius: 30px;
   z-index: 1;
+  box-shadow: 0px 0px 22px rgba(116, 111, 111, 0.42);
 
   :hover {
     cursor: pointer;
