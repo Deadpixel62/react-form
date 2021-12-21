@@ -11,7 +11,7 @@ const Myinput = styled.input`
   border-style: solid;
   border-radius: 18px;
   box-shadow: 0px 0px 22px rgba(116, 111, 111, 0.42);
- 
+  width: 25vw;
   &focus {
     outline: none;
   }
@@ -28,6 +28,7 @@ height: 26px;
 position: absolute;
 margin-left: 4px;
 `
+
 const Inputcontainer = styled.div`
   display: flex;
   align-items: center;
@@ -35,11 +36,12 @@ const Inputcontainer = styled.div`
 
 function Input(props) {
     return (
-    <Inputcontainer>
-    <Icon src={props.icon} alt="icon"/>
-    <Myinput type={props.type} placeholder={props.placeholder}/>
-    </Inputcontainer>
-    )
+      <Inputcontainer>
+        <Icon src={props.icon} alt="icon" />
+        <Myinput type={props.type} placeholder={props.placeholder} />
+        
+      </Inputcontainer>
+    );
 }
 
 export default Input

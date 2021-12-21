@@ -29,7 +29,7 @@
 
 /* When the checkbox is checked, add a blue background */
 .container input:checked ~ .checkmark {
- background-color: #47da99;
+ background-color: #502064;
  animation: pop 0.5s;
  animation-direction: alternate;
 }
